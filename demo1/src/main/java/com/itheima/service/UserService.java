@@ -9,7 +9,7 @@ import com.itheima.po.User;
 public class UserService {
 	@Autowired
 	private UserDao userDao;
-     public   User    login(User user) {
-    	 return    userDao.selectuserbyusernameandpassword(user);
+     public User login(User user) {
+    	 return userDao.selectuserbyusernameandpassword(user);
      }
 }
