@@ -6,7 +6,7 @@ import com.itheima.po.User;
 /**
  * 用户DAO层接口
  */
-public interface UserDao {
+public interface UserDao1 {
 	/**
 	 * 通过账号和密码查询用户
 	 */
